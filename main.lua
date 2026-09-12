@@ -21,3 +21,4 @@ window.Parent = gui
 local title = Instance.new("TextLabel")
 title.Text = "My Script"
 title.Parent = window
+title.TextSize = 24
