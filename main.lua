@@ -35,5 +35,5 @@ button.MouseButton1Click:Connect(function()
     local character = player.Character
     local humanoid = character:WaitForChild("Humanoid")
     humanoid.Walkspeed = 50
-    print("Button Clicked!")
+    print(humanoid.Walkspeed)
 end)
