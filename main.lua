@@ -29,5 +29,8 @@ button.Parent = window
 
 button.Text = "Change Speed"
 
-window.Size = UDim2.new(0, 300, 0, 180)
 button.Size = UDim2.new(0, 200, 0, 40)
+
+button.MouseButton1Click:Connect(function()
+    print("Button Clicked!")
+end)
