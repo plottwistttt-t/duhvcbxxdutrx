@@ -34,6 +34,8 @@ button.Size = UDim2.new(0, 200, 0, 40)
 button.MouseButton1Click:Connect(function()
     local character = player.Character
     local humanoid = character:WaitForChild("Humanoid")
-    humanoid.Walkspeed = 50
-    print(humanoid.Walkspeed)
+
+    humanoid.WalkSpeed = 50
+
+    print(humanoid.WalkSpeed)
 end)
